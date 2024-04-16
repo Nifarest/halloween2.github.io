@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    }
+    .abuelo{
+        background-color: red;
+    
+    }
+    .hijo1{
+        background-color: orange;
+    }
+    .hijo2{
+        background-color: blue;
+    }
+    .nieto1{
+    background-color: yellow;
+    }
+    .nieto2{
+        background-color: black;
+    }
+    .abuelo{
+        display: flex;
+        flex-direction: row;
+    }
+    .hijo1{
+        flex-basis: 50vw;
+        height: 100vh;
+    }
+    .hijo2{
+        flex-basis: 50vw;
+        height: 100vh;
+    
+    }
+    .hijo2{
+        display: flex;
+    flex-direction: column;
+    }
+    .nieto1{
+        flex-basis: 50vh;
+    }
+    .nieto2{
+        flex-basis: 50vh;
+    }
+    @media screen and (max-width: 480px)
+    {
+        .abuelo{
+         
+            flex-basis: ;
+            
+        }    
+        .nieto1{
+    
+        }
+    }
+    
