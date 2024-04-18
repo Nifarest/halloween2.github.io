@@ -1,0 +1,914 @@
+
+.abuelo{
+    background-color: red;
+
+}
+.hijo1{
+    background-color: black;
+}
+.nieto1{
+background-color: yellow;
+}
+.nieto2{
+    background-color: red;
+}
+.abuelo{
+    display: flex;
+    flex-direction: row;
+}
+.hijo1{
+    flex-basis: 50vw;
+    height: 100vh;
+}
+.hijo2{
+    flex-basis: 50vw;
+    height: 100vh;
+
+}
+.hijo2{
+    display: flex;
+flex-direction: column;
+}
+.nieto1{
+    flex-basis: 50vh;
+}
+.nieto2{
+    flex-basis: 50vh;
+}
+@media screen and (max-width: 480px)
+{
+    .abuelo{
+     
+        flex-basis: ;
+        
+    }    
+    .nieto1{
+     background-color: white;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0; /* Agregamos padding para eliminar cualquier espaciado adicional */
+    box-sizing: border-box; /* Aseguramos que el padding y el borde no afecten el ancho y alto total */
+    text-decoration: none;
+}
+
+.fondo {
+    background-color: black;
+   
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca el fondo detrás de todo */
+}
+.fondooscuro {
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Añade espacio alrededor de los elementos */
+}
+.halloween, .HOME, .DEMOSTRATIONS, .ABOUT, .CONTACT {
+    list-style: none;
+    background-color: black;
+    margin: 10px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    
+}
+
+.imagenp{
+    position: relative;
+    flex-basis: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.l1imagenp{
+    position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+    top: 25%; /* Ajusta la posición verticalmente */
+    left: 50%; /* Ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el texto en el medio del contenedor */
+    color: red; /* Color del texto */
+    text-align: center; /* Alineación del texto*/
+}
+.l2{
+    position: absolute;
+    bottom: 20px; /* Por ejemplo, coloca el texto adicional 20 píxeles desde la parte inferior */
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+.l3{
+    position: absolute;
+    bottom: 20px; /* Por ejemplo, coloca el texto adicional 20 píxeles desde la parte inferior */
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+.l4{
+    position: absolute;
+    bottom: 20px; /* Por ejemplo, coloca el texto adicional 20 píxeles desde la parte inferior */
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+.calabaza2{
+    position: relative;
+    flex-basis: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.l5{
+    margin-top: 20px; 
+    margin-left: 20px; 
+    color: red;
+    flex-basis: 100vw;
+}
+.l6{
+    color: white;
+    margin-top: 20px; 
+    margin-left: 20px; 
+}
+.l7{
+    color: white;
+     
+    margin-left: 20px; 
+}
+.linea-vertical {
+    width: 1px;
+    background-color: white;
+    height: 100px; /* Altura de la línea vertical */
+    margin: 0 auto; /* Centrar la línea vertical */
+}
+
+.texto-al-lado {
+    margin-left: 20px; /* Espacio entre la línea vertical y el texto */
+    color: white;
+    width: 300px; /* Ancho del contenedor del texto */
+}
+
+
+
+.chica{
+  
+        position: relative;
+        flex-basis: 100vw;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+    
+}
+.l9{
+
+ color: white;
+ margin-top: 30px;
+ margin-bottom: 20px;
+ margin-left: 20px; 
+}
+.l10{
+
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px; 
+}
+.calabaza3{
+  
+    position: relative;
+    flex-basis: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.z{
+
+    display: flex;
+    flex-direction: column;
+}
+.z1{
+
+    display: flex;
+    flex-direction: column;
+}
+.z2{
+
+    display: flex;
+    flex-direction: column;
+}
+.z3{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.l11{
+
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+}
+.l12{
+
+    color: white;
+    margin-bottom: 30px;    
+    margin-left: 20px; 
+}
+.gato{
+  
+    position: relative;
+    flex-basis: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+
+}
+.l13{
+
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    
+}
+.l14{
+
+    color: white;
+    margin-bottom: 30px; 
+    margin-left: 20px; 
+}
+
+
+
+.casa{
+    margin-top: 50px; 
+    position: relative;
+    flex-basis: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.a{
+    position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+    top: 25%; /* Ajusta la posición verticalmente */
+    left: 50%; /* Ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el texto en el medio del contenedor */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto*/
+}
+.a1{
+    margin-top: 70px; 
+   color: red; /* Color del texto */
+   background-color: black;
+   display: flex;
+   justify-content: center; /* Centra horizontalmente los elementos */
+   align-items: center; /* Centra verticalmente los elementos */
+   padding: 10px; /* Añade espacio alrededor de los elementos */
+}
+.a2{
+    color: white; /* Color del texto */
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Añade espacio alrededor de los elementos */
+ }
+
+
+ .a4, .a7, .a10
+ {
+color: red;
+}
+
+
+
+.estatua {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    
+}
+
+
+
+.estatua img {
+    position: relative;
+    flex-basis: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.texto {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%; /* Ajusta el ancho del texto según sea necesario */
+color: white;
+}
+
+.texto > div {
+    margin-bottom: 10px; /* Espacio entre cada sección de texto */
+}
+
+.texto p {
+    margin: 0; /* Elimina el margen predeterminado de los párrafos */
+}
+
+.b1{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: red;
+}
+.b2{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.b3{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.calabasas{
+    display: flex;
+    flex-direction: column;
+}
+.columna1{
+    flex-basis: 50vw;
+    height: 100vh;
+}
+.columna2{
+    flex-basis: 50vw;
+    height: 100vh;
+
+}
+.columna3{
+    flex-basis: 50vw;
+    height: 100vh;
+
+}
+.columna1{
+    display: flex;
+flex-direction: column;
+}
+.columna2{
+    display: flex;
+flex-direction: column;
+}
+
+.columna3{
+    display: flex;
+flex-direction: column;
+}
+
+
+.fila1, .fila2, .fila3, .fila4, .fila5, .fila6
+{
+    position: relative;
+    flex-basis: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+   
+
+}
+
+
+
+.ima2 {
+  
+    position: relative;
+    flex-basis: 200vw;
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ima21{
+    position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+    top: 25%; /* Ajusta la posición verticalmente */
+    left: 20%; /* Ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el texto en el medio del contenedor */
+    color: red; /* Color del texto */
+    text-align: left; /* Alineación del texto*/
+}
+.ima22{
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: left;
+}
+
+.ima23{
+    position: absolute;
+   top: 40%;
+    left: 42%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: left;
+}
+
+.ima24{
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: left;
+}
+.ima25{
+    position: absolute;
+    top: 85%;
+    left: 23%;
+    transform: translateX(-50%);
+    color: red;
+    text-align: left;
+
+}
+
+
+
+.ima3 {
+    margin-top: 20px;   
+    position: relative;
+    flex-basis: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ima31{
+    position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+    top: 25%; /* Ajusta la posición verticalmente */
+    left: 50%; /* Ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el texto en el medio del contenedor */
+    color: red; /* Color del texto */
+    text-align: center; /* Alineación del texto*/
+}
+.ima32{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+
+.ima35{
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;   
+
+}
+
+
+
+
+.f9{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+
+.f91{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+
+    padding: 10px;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+
+.f92{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+
+.f93{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+
+.f94{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+
+.f95{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+
+
+
+
+.aaa{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    
+}
+.Powered
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+.Copyright
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+
+
+
+@media screen and (min-width: 480px)
+{
+    .aaa{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* Centra horizontalmente los elementos */
+        align-items: center; /* Centra verticalmente los elementos */
+        
+    }
+    .f9{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* Centra horizontalmente los elementos */
+        align-items: center; /* Centra verticalmente los elementos */
+        
+    }
+    
+    
+
+
+    
+}
+
+
+@media screen and (min-width: 480px)
+{
+ 
+.calabasas{
+    display: flex;
+    flex-direction: row;
+}
+.columna1{
+    display: flex;
+flex-direction: column;
+}
+.columna2{
+    display: flex;
+flex-direction: column;
+}
+
+.columna3{
+    display: flex;
+flex-direction: column;
+}
+
+
+.fila1, .fila2, .fila3, .fila4, .fila5, .fila6
+{
+    position: relative;
+    flex-basis: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+    
+    
+
+
+.imagenp{
+    position: relative;
+    flex-basis: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.l1imagenp{
+    position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+    top: 25%; /* Ajusta la posición verticalmente */
+    left: 50%; /* Ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el texto en el medio del contenedor */
+    color: red; /* Color del texto */
+    text-align: center; /* Alineación del texto*/
+}
+.l2{
+    position: absolute;
+    bottom: 20px; /* Por ejemplo, coloca el texto adicional 20 píxeles desde la parte inferior */
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+.l3{
+    position: absolute;
+    bottom: 20px; /* Por ejemplo, coloca el texto adicional 20 píxeles desde la parte inferior */
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+.l4{
+    position: absolute;
+    bottom: 20px; /* Por ejemplo, coloca el texto adicional 20 píxeles desde la parte inferior */
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+    
+
+
+
+.l5{
+    margin-top: 30px; 
+    margin-left: 370px; 
+    color: red;
+    flex-basis: 100vw;
+}
+.l6{
+    color: white;
+    margin-top: 20px; 
+    margin-left: 370px; 
+}
+.l7{
+    color: white;
+     
+    margin-left: 370px; 
+}
+.linea-vertical {
+    width: 1px;
+    background-color: white;
+    height: 120px; /* Altura de la línea vertical */
+    margin: 0 auto; /* Centrar la línea vertical */
+}
+
+.texto-al-lado {
+    margin-left: 370px; /* Espacio entre la línea vertical y el texto */
+    color: white;
+    width: 300px; /* Ancho del contenedor del texto */
+    margin-bottom: 70px;
+}
+
+
+
+
+.chica{
+  
+    position: relative;
+    flex-basis: 20vw;
+height: 20vh;
+    display: flex;
+    justify-content: center;
+
+}
+.l9{
+
+color: white;
+margin-top: 30px;
+margin-bottom: 20px;
+margin-left: 20px; 
+}
+.l10{
+
+color: white;
+margin-bottom: 30px;
+margin-left: 20px; 
+}
+.calabaza3{
+
+position: relative;
+flex-basis: 20vw;
+height: 20vh;
+display: flex;
+justify-content: center;
+
+}
+
+
+.z{
+
+display: flex;
+flex-direction: row;
+}
+.z1{
+
+display: flex;
+flex-direction: column;
+}
+.z2{
+
+display: flex;
+flex-direction: column;
+}
+.z3{
+
+display: flex;
+flex-direction: column;
+}
+
+.l11{
+
+color: white;
+margin-top: 30px;
+margin-bottom: 20px;
+margin-left: 20px; 
+}
+.l12{
+
+color: white;
+margin-bottom: 30px;    
+margin-left: 20px; 
+}
+.gato{
+
+position: relative;
+flex-basis: 20vw;
+height: 20vh;
+display: flex;
+justify-content: center;
+
+}
+.l13{
+
+color: white;
+margin-top: 30px;
+margin-bottom: 20px;
+margin-left: 20px; 
+
+}
+.l14{
+
+color: white;
+margin-bottom: 30px; 
+margin-left: 20px; 
+}
+
+
+
+.ima2 {
+  
+    position: relative;
+    flex-basis: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ima21{
+    position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+    top: 25%; /* Ajusta la posición verticalmente */
+    left: 21%; /* Ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el texto en el medio del contenedor */
+    color: red; /* Color del texto */
+    text-align: left; /* Alineación del texto*/
+}
+.ima22{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: left;
+}
+
+.ima23{
+    position: absolute;
+   top: 55%;
+    left: 15%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: left;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.ima24{
+    position: absolute;
+    top: 54%;
+    left: 40%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: left;
+    border-left: 1px solid white; /* Agrega una línea vertical a la derecha del elemento */
+    padding-left: 50px; /* Agrega un espacio entre la línea y el texto */
+    margin-left: 500px;
+}
+
+.ima25{
+    position: absolute;
+    top: 70%;
+    left: 67%;
+    transform: translateX(-50%);
+    color: red;
+    text-align: left;
+
+}
+.estatua {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    flex-basis: 80  vw;
+    height: 80vh;
+}
+}
+
+
